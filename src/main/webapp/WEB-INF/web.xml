@@ -7,4 +7,23 @@
   <welcome-file-list>
     <welcome-file>html/home.html</welcome-file>
   </welcome-file-list>
+
+  <servlet>
+    <servlet-name>PrimaServlet</servlet-name>
+    <servlet-class>PrimaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>PrimaServlet</servlet-name>
+    <url-pattern>/PrimaServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>SecondaServlet</servlet-name>
+    <servlet-class>SecondServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SecondaServlet</servlet-name>
+    <url-pattern>/SecondaServlet</url-pattern>
+  </servlet-mapping>
+
 </web-app>
